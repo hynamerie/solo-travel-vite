@@ -86,3 +86,62 @@ header h1 {
   line-height: 1.5;
   font-weight: 300;
 }
+.meme-layout {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.form-input {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0 0 0;
+  gap: 10px;
+}
+.form-input input {
+  padding: 20px;
+  border-radius: 8px;
+  border: 0;
+  width: 50%;
+}
+.meme-layout button {
+  background-color: brown;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0;
+}
+.meme-container {
+  width: 100%;
+  position: relative;
+}
+.meme-container img {
+  width: 100%;
+  object-fit: cover;
+}
+.meme-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  font-family: impact, sans-serif;
+  text-transform: uppercase;
+  font-size: 2em;
+  letter-spacing: 1px;
+  color: white;
+  text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+.top {
+  top: 10%;
+}
+.bottom {
+  bottom: 0;
+}

@@ -2,6 +2,8 @@ import './App.css'
 import React from 'react';
 import data from './data';
 import Card from './Card';
+import Today from './Day/Today';
+import Meme from './Day/Meme';
 
 function App() {
   const cards = data.map(item => {
@@ -21,8 +23,14 @@ function App() {
         </div>
         <h1>my travel journal</h1>
       </header>
+      <div>
+        <Today name="Ameri"/>
+      </div>
       <div className='card-layout'>
         {cards}
+      </div>
+      <div>
+        <Meme/>
       </div>
     </div>
   )
