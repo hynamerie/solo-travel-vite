@@ -4,6 +4,7 @@ import data from './data';
 import Card from './Card';
 import Today from './Day/Today';
 import Meme from './Day/Meme';
+import MemeAPI from './Day/MemeAPI';
 
 function App() {
   const cards = data.map(item => {
@@ -31,6 +32,7 @@ function App() {
       </div>
       <div>
         <Meme/>
+        <MemeAPI/>
       </div>
     </div>
   )

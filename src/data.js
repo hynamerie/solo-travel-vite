@@ -6,7 +6,7 @@ export default [
       startDate: "12 Jan, 2023",
       endDate: "24 Jan, 2023",
       description: "Mount Fuji is the tallest mountain in Japan, standing at 3,776 meters (12,380 feet). Mount Fuji is the single most popular tourist site in Japan, for both Japanese and foreign tourists.",
-      imageUrl: "https://pixabay.com/get/g15a06b085712cff22859a76197a6346a33c868c5512e427e0c287c364faec4dba92f2dffc32749029631a6e3f31748cf8babbb9d4ad5aea38463a72a3216d3c7_1280.jpg"
+      imageUrl: "https://pixabay.com/get/gacb0bca4fb0834d1a531502505d8ab8dcf3acc1b7e25166ab73d1fc62184a38150ef061fd8613b4abd02910e7fe8b93a0f4c97e47b185376eb399bb1b1e4efa4_1280.jpg"
   },
   {
     title: "Sydney Opera House",
