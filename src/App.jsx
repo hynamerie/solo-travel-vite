@@ -25,7 +25,7 @@ function App() {
         <h1>my travel journal</h1>
       </header>
       <div>
-        <Today name="Ameri"/>
+        <Today name="Amerie"/>
       </div>
       <div className='card-layout'>
         {cards}
